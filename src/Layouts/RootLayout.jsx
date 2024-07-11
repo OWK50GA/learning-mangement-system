@@ -6,6 +6,8 @@ import { BiMenu } from "react-icons/bi";
 import { ThemeContext, UserContext } from "../Contexts/ThemeContext";
 import { CiDark, CiMenuBurger } from "react-icons/ci";
 import { RxAvatar } from "react-icons/rx";
+import mceLogo from '../assets/4624f8dd-4da6-48da-86ed-87b55b3f360d.jpg'
+import avatar from '../assets/OIP.jpg'
 
 const RootLayout = () => {
 
@@ -51,7 +53,7 @@ const RootLayout = () => {
                             onClick={() => setHarmburgerShow(!harmburgerShow)}
                             />
                             }
-                        <img src="src\assets\4624f8dd-4da6-48da-86ed-87b55b3f360d.jpg" alt="" className="dept-icon"/>
+                        <img src={mceLogo} alt="" className="dept-icon"/>
                     </div>
                     <div className="flex gap-5">
                         {
@@ -74,7 +76,7 @@ const RootLayout = () => {
                         {user?
                             <img src={user.image} alt="" className="avatar rounded-3xl"/>
                             :
-                            <img src="src\assets\OIP.jpg" alt="" className="avatar rounded-3xl"/>
+                            <img src={avatar} alt="" className="avatar rounded-3xl"/>
                         }
                     </div>
                 </div>
