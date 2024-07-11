@@ -1,0 +1,27 @@
+Add Timetable component - Done
+// Add Timer component
+Create Reading Timetable Option - 
+Join New Club Function - Not enough clubs for that
+Implement the Notification component - Not Possible For Now
+Make components for different CGPA assessment statistics
+Lecturers' Profile and how to contact them - Done, except for the Contact Part
+Departmental Handbook
+Search for your fellow students - Be calming down
+Chat Platform with fellow students - Be calming down
+Dark Mode feature: {
+    background color: one shade of grey
+    major color elsewise: deep green
+} - DONE
+
+
+Optional:
+    Notebook,
+    Video Resources,
+
+
+Skills learned/brushed up in:
+    React ChartJS and ChartJS,
+    UseContext Hook,
+    Tailwind as a whole,
+    DarkMode implementation,
+    React Popups,
